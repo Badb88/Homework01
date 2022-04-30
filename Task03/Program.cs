@@ -5,8 +5,8 @@
 */
 
 Console.Write("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
-if (a % 2 == 0)
+int number = Convert.ToInt32(Console.ReadLine());
+if (number % 2 == 0)
 {
     Console.WriteLine("Число является чётным");
 }
