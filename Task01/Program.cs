@@ -11,11 +11,17 @@ Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
 int min = b;
-if (a > b) max = a;
-if (a < b) max = b;
-if (a < b) min = a;
-if (a > b) min = b;
-Console.Write("Максимальное число: ");
-Console.WriteLine(max);
-Console.Write("Минимальное число: ");
-Console.WriteLine(min);
+if (a > b)
+{
+    Console.Write("Максимальное число: ");
+    Console.WriteLine(a);
+    Console.Write("Минимальное число: ");
+    Console.WriteLine(b);
+}
+else
+{
+    Console.Write("Максимальное число: ");
+    Console.WriteLine(b);
+    Console.Write("Минимальное число: ");
+    Console.WriteLine(a);
+}
